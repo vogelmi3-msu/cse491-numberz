@@ -1,14 +1,11 @@
 # this is an implementation of the 'fib' functionality using
 # a generator.
 
-print "fib 1"
 def fib():
-	print "fib 2"
 	last_1 = 1
 	last_2 = 1
 	
 	while 1:
-		print "fib 3"
 		next_fib = last_1 + last_2
 		last_1, last_2 = last_2, next_fib
 		yield next_fib
