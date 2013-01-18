@@ -1,7 +1,7 @@
 # this is an implementation of the Fibonacci series using
 # Python's iterator functionality.  Here, 'fib' is a class that
 # obeys the iterator protocol.
-print "fib 1"
+
 class fib(object):
     def __init__(self):
         self.last_1 = 1
